@@ -43,7 +43,7 @@ export const CALENDAR_DAYS = [
     icon: 'Camera',
     themeColor: 'from-pink-50 to-pink-100',
     content: {
-      imageUrl: '/fotos/chica-montana.jpg',
+      imageUrl: './fotos/chica-montana.jpg',
       caption: 'Mírale la carita a mi deportista favorita.',
       note: 'Me encanta esta foto tuya. Tienes una luz increíble y esa sonrisa me alegra cualquier día, por muy duro que sea el entreno o la semana. ¡Eres la más preciosa!',
       polaroidDate: 'Nuestros Recuerdos'
@@ -274,7 +274,7 @@ export const CALENDAR_DAYS = [
     icon: 'Camera',
     themeColor: 'from-pink-50 to-rose-50',
     content: {
-      imageUrl: '/fotos/pareja-motos.jpg',
+      imageUrl: './fotos/pareja-motos.jpg',
       caption: 'Mil curvas, mil metas y siempre a tu lado.',
       note: 'No solo compartimos entrenos, kilómetros y barras: compartimos la vida entera y cada aventura en moto o donde sea. Eres mi compañera de ruta favorita para siempre.',
       polaroidDate: 'Nuestras Rutas'

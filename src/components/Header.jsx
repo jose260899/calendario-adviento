@@ -45,7 +45,7 @@ export default function Header({ openedCount, totalDays = 24, daysUntilDecember,
 
         {/* Polaroid 1: Her smiling in mountains */}
         <button
-          onClick={() => handlePhotoClick('/fotos/chica-montana.jpg', 'Mi chica favorita 🏔️💕')}
+          onClick={() => handlePhotoClick('./fotos/chica-montana.jpg', 'Mi chica favorita 🏔️💕')}
           className="group relative w-36 sm:w-44 bg-white p-2 sm:p-2.5 pb-4 sm:pb-5 rounded-xl shadow-coquette border border-coquette-200 transform -rotate-3 hover:rotate-0 hover:scale-105 transition-all duration-300 text-left active:scale-95"
           title="Toca para ver foto"
         >
@@ -55,7 +55,7 @@ export default function Header({ openedCount, totalDays = 24, daysUntilDecember,
           {/* Photo Frame */}
           <div className="aspect-[3/4] w-full overflow-hidden rounded-lg bg-pink-50 relative shadow-inner">
             <img
-              src="/fotos/chica-montana.jpg"
+              src="./fotos/chica-montana.jpg"
               alt="Mi chica bonita en la montaña"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
@@ -77,7 +77,7 @@ export default function Header({ openedCount, totalDays = 24, daysUntilDecember,
 
         {/* Polaroid 2: The two kissing by the motorbikes */}
         <button
-          onClick={() => handlePhotoClick('/fotos/pareja-motos.jpg', 'Tú y Yo: Rutas, entrenos y vida 🏍️💨💕')}
+          onClick={() => handlePhotoClick('./fotos/pareja-motos.jpg', 'Tú y Yo: Rutas, entrenos y vida 🏍️💨💕')}
           className="group relative w-36 sm:w-44 bg-white p-2 sm:p-2.5 pb-4 sm:pb-5 rounded-xl shadow-coquette border border-coquette-200 transform rotate-3 hover:rotate-0 hover:scale-105 transition-all duration-300 text-left active:scale-95"
           title="Toca para ver foto"
         >
@@ -87,7 +87,7 @@ export default function Header({ openedCount, totalDays = 24, daysUntilDecember,
           {/* Photo Frame */}
           <div className="aspect-[3/4] w-full overflow-hidden rounded-lg bg-pink-50 relative shadow-inner">
             <img
-              src="/fotos/pareja-motos.jpg"
+              src="./fotos/pareja-motos.jpg"
               alt="Nosotros en las motos con vistas al mar"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
