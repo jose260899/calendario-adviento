@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background: radial-gradient(circle at 50% 0%, #fff0f5 0%, #fff7fa 40%, #faedf2 100%);
+    color: #4a2835;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* Coquette cute scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #ffe8ec;
+}
+::-webkit-scrollbar-thumb {
+  background: #f75c82;
+  border-radius: 9999px;
+}
+
+/* Delicate lace border pattern */
+.lace-border {
+  border-image: repeating-linear-gradient(45deg, #ffd1dc, #ffd1dc 10px, #fff5f7 10px, #fff5f7 20px) 20;
+}
+
+/* Subtle sparkle animations */
+@keyframes sparkle {
+  0%, 100% { opacity: 0.3; transform: scale(0.8) rotate(0deg); }
+  50% { opacity: 1; transform: scale(1.2) rotate(180deg); }
+}
+
+.animate-sparkle-slow {
+  animation: sparkle 3s ease-in-out infinite;
+}
+
+/* Soft paper texture */
+.paper-card {
+  background-color: #fffdfc;
+  background-image: radial-gradient(#fcd5df 0.75px, transparent 0.75px);
+  background-size: 15px 15px;
+}
